@@ -1,0 +1,43 @@
+{
+  "id": "game_12345",
+  "gameName": "Zyn Products",
+  "brand": {
+    "id": "brand_987",
+    "name": "Downtown Store"
+  },
+  "description": "Match the correct product images with the trivia question.",
+  "startDate": "2026-02-01",
+  "endDate": "2026-02-28",
+  "points": 100,
+   "total_plays":8,
+  "isActive":true,
+  "questions": [
+    {
+      "id": "question_001",
+      "order": 1,
+      "text": "Which of these is the original Zyn mint product?",
+      "answers": [
+        {
+          "id": "answer_001",
+          "order": 1,
+          "image": {
+            "url": "https://cdn.example.com/images/option1.png",
+            "alt": "Option 1"
+          },
+          "isCorrect": false
+        },
+        {
+          "id": "answer_002",
+          "order": 2,
+          "image": {
+            "url": "https://cdn.example.com/images/option2.png",
+            "alt": "Option 2"
+          },
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-01-18T14:30:00Z",
+  "updatedAt": "2026-01-18T14:30:00Z"
+}
